@@ -1,0 +1,37 @@
+Html Webpack Plugin:
+<pre>
+  Error: Cannot find module '/Users/s.yamamo/myProjects/preact-to-webcomponents/build/ssr-build/ssr-bundle.js'
+  Require stack:
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/lib/webpack/prerender.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/lib/webpack/render-html-plugin.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/lib/webpack/webpack-client-config.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/lib/webpack/run-webpack.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/commands/build.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/commands/index.js
+  - /Users/s.yamamo/myProjects/preact-to-webcomponents/node_modules/preact-cli/src/index.js
+  
+  - loader:1075 Module._resolveFilename
+    node:internal/modules/cjs/loader:1075:15
+  
+  - loader:920 Module._load
+    node:internal/modules/cjs/loader:920:27
+  
+  - loader:1141 Module.require
+    node:internal/modules/cjs/loader:1141:19
+  
+  - helpers:110 require
+    node:internal/modules/cjs/helpers:110:18
+  
+  - prerender.js:18 module.exports
+    [preact-to-webcomponents]/[preact-cli]/src/lib/webpack/prerender.js:18:11
+  
+  - render-html-plugin.js:95 Object.ssr
+    [preact-to-webcomponents]/[preact-cli]/src/lib/webpack/render-html-plugin.js:95:8
+  
+  - template.tmp.ejs:131 I0Ud.module.exports
+    /var/folders/y5/hm220_dd4r90pr6nwsjfx5jh0000gn/T/preact-cli-rnJrH7/template.tmp.ejs:131:37
+  
+  - index.js:284 
+    [preact-to-webcomponents]/[html-webpack-plugin]/index.js:284:18
+  
+</pre>

@@ -8,10 +8,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "preact": "^10.15.1"
+    "preact": "^10.15.1",
+    "preact-custom-element": "^4.2.1"
   },
   "devDependencies": {
-    "preact-custom-element": "^4.2.1",
+    "@types/preact-custom-element": "^4.0.1",
     "ts-loader": "^9.4.3",
     "typescript": "^5.1.3",
     "webpack": "^5.86.0",

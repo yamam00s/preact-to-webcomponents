@@ -2,6 +2,7 @@ module.exports = {
   entry: {
     greeting:  "./src/Greeting.tsx",
     greetingSecond:  "./src/GreetingSecond.tsx",
+    form:  "./src/Form.tsx",
   },
   output: {
     filename: '[name].bundle.js',
